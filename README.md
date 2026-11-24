@@ -2,7 +2,9 @@
 
 Google Chrome のブックマークで、macOS の Safari のブックマークを**置き換える** AppleScript です。
 
-Safari の「ファイル > ブラウザから読み込む > Google Chrome」は、既存のブックマークに**追加**します。何度も読み込むと重複していくので、このスクリプトは先に Safari のブックマークを空にしてから読み込みます。
+Safari の「ファイル > ブラウザから読み込む > Google Chrome」で読み込むと、Safari にもともとあったブックマークは消えずに残ります。Chrome と同じ内容にそろえたいときは、先に Safari のブックマークを手で消す必要があります。
+
+このスクリプトは、その「消す」と「読み込む」をまとめて行います。
 
 > [!WARNING]
 > Safari のブックマークはすべて削除されます。iCloud で同期している場合は、iPhone・iPad の Safari からも消えます。
