@@ -861,7 +861,7 @@ on run
 	set outText to ""
 	set msg to "Safari のブックマークを、Chrome の内容で置き換えます。" & return & return
 	set msg to msg & "・Safari のブックマークはすべて削除されます（iCloud 経由で iPhone・iPad の Safari にも反映されます）" & return
-	set msg to msg & "・Chrome を一度終了し、終わったら再起動します（保存していない作業は先に保存してください）" & return
+	set msg to msg & "・Chrome が起動している場合は一度終了し、終わったら起動し直します（保存していない作業は先に保存してください）" & return
 	set msg to msg & "・履歴は読み込みません" & return & return
 	set msg to msg & "実行前に「ファイル > ブラウズデータをファイルに書き出す…」でバックアップを取りましたか？" & return & return
 	set msg to msg & "「確認だけ」を選ぶと、削除も Chrome の終了もせず、削除対象の一覧だけ確認できます。"
